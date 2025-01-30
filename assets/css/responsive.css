@@ -1,0 +1,124 @@
+/* large screen */
+@media screen and (max-width: 992px)   {
+    #banner-section .container .row .text-start{
+        padding-top: 180px;
+        padding-bottom: 150px;
+    }
+
+    .intro-wrap{
+        margin-top: -50px;
+    }
+
+    #intro .col-md-4 div{
+        padding: 2rem;
+    }
+
+    #intro img{
+        width: 30%;
+    }
+
+    #about-section .booking p{
+        margin-left: 0px;
+    }
+
+    #check-Availability {
+        margin-top: 80px !important;
+    }
+
+    #cart .coupon-btn{
+        padding: 5px 20px;
+    }
+
+    #cart .quantity-container, #cart .cart-product {
+        margin-top: 15px;
+    }
+
+    #cart .cancel-btn{
+        margin-top: 0px;
+    }
+}
+
+
+/* medium screen */
+@media screen and (max-width: 768px)   {
+    #banner-section .section-mainHeading{
+        font-size: 2.8rem;
+        margin-top: 0.5rem;
+    }
+
+    #banner-section .btn-style{
+        padding: 0.7rem 1.5rem;
+    }
+
+    #intro .col-md-4 div{
+        padding: 1.7rem;
+    }
+
+    #intro img{
+        width: 12%;
+    }
+    
+    .sub-heading{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    
+    #check-Availability {
+        margin-top: 40px !important;
+    }
+
+    #cart .coupon-btn{
+        padding: 12px 20px;
+    }
+
+     #cart .coupon-btn ,#cart .update-btn,  #cart .cart-product{
+        margin-top: 5px ;
+    }
+
+    #cart .cart-product{
+        font-weight: 400;
+        font-size: 0.85rem;
+    }
+
+    #cart .quantity-container{
+        margin-top: 7px;
+    }
+
+    #cart .quantity-btn {
+        width: 20px;
+    }
+
+    #cart .quantity-input {
+        width: 20px;
+        
+    }
+
+    #cart .cancel-btn{
+        font-size: 1.5rem;
+    }
+    
+
+}
+
+
+/* small screen */
+@media screen and (max-width: 576px)    {
+    #banner-section .section-mainHeading{
+        font-size: 2.4rem;
+        margin-top: 0.3rem;
+        line-height: 3rem;
+    }
+
+    .heading{
+        font-size: 1.9rem;
+    }
+
+    .description{
+        line-height: 24px;
+    }
+
+    .sub-heading{
+        font-size: 2rem;
+        line-height: 2.7rem;
+    }
+}

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta name="keyword" content="html, css, javascript, bootstrap, jquery">
+    <meta name="author" content="Athika Chowdhury Priya">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title tag -->
+    <title>Cafedine - Reservation </title>
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cookie&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- swiper css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- aos css cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    
+    <!-- header starts here -->
+    <header>
+        <!-- nav starts here -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <!-- navbar brand/logo -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </a>
+                <!-- toggler btn -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- navbar nav -->
+                <div class="collapse navbar-collapse justify-content-around" id="myNav">
+                    <ul class="navbar-nav ms-auto mb-lg-0 align-items-center ">
+                        <li class="nav-item ms-lg-4">
+                            <a href="index.html" class="nav-link fw-semibold text-uppercase text-white "  >Home</a>
+                        </li>
+                        <li class="nav-item ms-lg-4">
+                            <a href="about.html" class="nav-link fw-semibold text-uppercase text-white " target="_blank">About</a>
+                        </li>
+                        <li class="nav-item ms-lg-4">
+                            <a href="recipes.html" class="nav-link fw-semibold text-uppercase text-white  " target="_blank">Recipes</a>
+                        </li>
+                        <li class="nav-item ms-lg-4">
+                            <a href="gallery.html" class="nav-link fw-semibold text-uppercase text-white " target="_blank">Gallery</a>
+                        </li>
+                        <!-- nav dropdown btn -->
+                        <li class="nav-item ms-lg-4 dropdown">
+                            <a href="#" class="nav-link dropdown-toggle fw-semibold text-uppercase active " role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="true">Reservation</a>
+                            <!-- dropdown list -->
+                            <ul class="dropdown-menu">
+                                <li class="p-lg-1">
+                                    <a href="reservation.html" class="dropdown-item text-uppercase fw-semibold ">reservation</a>
+                                </li>
+                                <li class="p-lg-1">
+                                    <a href="cart.html" class="dropdown-item text-uppercase fw-semibold ">cart</a>
+                                </li>
+                                <li class="p-lg-1">
+                                    <a href="#" class="dropdown-item text-uppercase fw-semibold ">shipping</a>
+                                </li>
+                                <li class="p-lg-1">
+                                    <a href="#" class="dropdown-item text-uppercase fw-semibold ">payment</a>
+                                </li>
+                                <li class="p-lg-1">
+                                    <a href="#" class="dropdown-item text-uppercase fw-semibold ">confirmation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-lg-4">
+                            <a href="contact.html" class="nav-link fw-semibold text-uppercase text-white " target="_blank">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav ends here -->
+     </header>
+    <!-- header ends here -->
+
+
+    <!-- main starts here -->
+
+    <main>
+
+        <!-- about banner starts here -->
+        <section id="about-banner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-white text-center section-mainHeading" data-aos="flip-left">Cart Page</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about banner ends here -->
+
+
+
+        <!-- cart starts here -->
+         <section id="cart" class="section-gap">
+            <div class="container">
+                <!-- cart header -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cart-header">
+                            <div class="row text-center ">
+                                <div class="col-5">
+                                    <h4 class="heading3">Product Name</h4>
+                                </div>
+                                <div class="col-1">
+                                    <h4 class="heading3">Price</h4>
+                                </div>
+                                <div class="col-2">
+                                    <h4 class="heading3">Quantity</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="heading3">Subtotal</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- cart product 1 -->
+                 <div class="row">
+                    <div class="col-12">
+                        <div class="cart-product1 py-2">
+                            <div class="row">
+                                <!-- cart product 1 name -->
+                                <div class="col-5">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="assets/images/menu1.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <h4 class="heading3 cart-product ">Lemon Rosemary Chicken</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- cart product 1 price -->
+                                <div class="col-1">
+                                    <p class="description cart-product ">$79.00</p>
+                                </div>
+                                <!-- cart product 1 quantity -->
+                                <div class="col-2">
+                                    <div class="quantity-container d-flex justify-conent-center align-items-center ">
+                                        <button class="quantity-btn" id="decrease">-</button>
+                                        <input type="text" id="quantity" class="quantity-input " value="1" readonly>
+                                        <button class="quantity-btn" id="increase">+</button>
+                                    </div>
+                                </div>
+                                <!-- cart product 1 subtotal -->
+                                <div class="col-4">
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p class="description cart-product ">$79.00</p>
+                                        </div>
+                                        <div class="col-2 cancel-btn ">
+                                            <span>x</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+
+                 <!-- cart product 2 -->
+                 <div class="row">
+                    <div class="col-12">
+                        <div class="cart-product2 py-2">
+                            <div class="row">
+                                <!-- cart product 2 name -->
+                                <div class="col-5">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="assets/images/menu2.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <h4 class="heading3 cart-product ">Pizza Pane</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- cart product 2 price -->
+                                <div class="col-1">
+                                    <p class="description cart-product ">$79.00</p>
+                                </div>
+                                <!-- cart product 2 quantity -->
+                                <div class="col-2">
+                                    <div class="quantity-container d-flex justify-conent-center align-items-center ">
+                                        <button class="quantity-btn" id="decrease">-</button>
+                                        <input type="text" id="quantity" class="quantity-input " value="1" readonly>
+                                        <button class="quantity-btn" id="increase">+</button>
+                                    </div>
+                                </div>
+                                <!-- cart product 2 subtotal -->
+                                <div class="col-4">
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p class="description cart-product ">$79.00</p>
+                                        </div>
+                                        <div class="col-2 cancel-btn ">
+                                            <span>x</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+
+                 <!-- cart product 3 -->
+                 <div class="row">
+                    <div class="col-12">
+                        <div class="cart-product3 py-2">
+                            <div class="row">
+                                <!-- cart product 3 name -->
+                                <div class="col-5">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="assets/images/menu6.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <h4 class="heading3 cart-product ">Seasonal Soup</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- cart product 3 price -->
+                                <div class="col-1">
+                                    <p class="description cart-product ">$79.00</p>
+                                </div>
+                                <!-- cart product 3 quantity -->
+                                <div class="col-2">
+                                    <div class="quantity-container d-flex justify-conent-center align-items-center ">
+                                        <button class="quantity-btn" id="decrease">-</button>
+                                        <input type="text" id="quantity" class="quantity-input " value="1" readonly>
+                                        <button class="quantity-btn" id="increase">+</button>
+                                    </div>
+                                </div>
+                                <!-- cart product 3 subtotal -->
+                                <div class="col-4">
+                                    <div class="row">
+                                        <div class="col-10">
+                                            <p class="description cart-product ">$79.00</p>
+                                        </div>
+                                        <div class="col-2 cancel-btn ">
+                                            <span>x</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- coupon , update cart -->
+                <div class="row coupon">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <form action="" method="get">
+                                    <input type="text" id="coupon" name="coupon" class="form-control  cuppon-input " placeholder="Enter Your Coupon">
+                                </form>
+                            </div>
+                            <div class=" col-md-4 "> 
+                                <button type="button" class="btn btn-style text-uppercase coupon-btn">Apply coupon</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <button type="button" class="btn btn-style text-uppercase update-btn">update cart </button>
+                    </div>
+                </div>
+
+                <!-- order-summery -->
+                 <div class="row order-summery mt-5 ">
+                    <div class="offset-md-7 col-md-5">
+                        <h4 class=" heading3 text-capitalize pb-3 ">order summery</h4>
+                        <p class="description">Excepteur sint occaecat cupidat non proident sunt officia.</p>
+                        <div class="summery d-flex">
+                            <p class="description ">subtotal</p>
+                            <p class="amount description">$237</p>
+                        </div>
+                        <div class="summery d-flex mt-2">
+                            <p class="description ">Shipping & Handling</p>
+                            <p class="amount description">$0</p>
+                        </div>
+                        <div class="summery d-flex mt-2">
+                            <p class="description ">Estimated Tax</p>
+                            <p class="amount description">$0</p>
+                        </div>
+                        <div class="summery d-flex mt-2 grand-total">
+                            <p class="description ">Grand Total</p>
+                            <p class="amount description"> USD $237.00</p>
+                        </div>
+                    </div>
+                    <div class="offset-md-7 col-md-5  checkout-btn ">
+                        <a href="#" class="btn btn-style text-uppercase">Proceed to checkout</a>
+                    </div>
+                 </div>
+            </div>
+         </section>
+
+        <!-- cart ends here -->
+        
+    </main>
+
+
+    <!-- main ends here -->
+
+
+
+    <!-- footer starts here  -->
+    <footer class="section-gap">
+        <div class="container">
+            <div class="row">
+                <!-- footer part 1 -->
+                <div class="col-md-4 g-5  mt-3 mt-md-0">
+                    <h3 class="heading3">About Us</h3>
+                    <p class="description mt-3 mb-0 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, nam!</p>
+                    <!-- footer nav icon -->
+                    <ul class="nav ">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- footer part 2 -->
+                <div class="col-md-4 g-5  mt-3 mt-md-0 contact-no">
+                    <h3 class="heading3">Contact Us</h3>
+                    <div class="d-flex mt-3 ">
+                        <i class="fa-solid fa-mobile mt-1"></i>
+                        <p class="description  ms-3">+1 987 654 3210</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-regular fa-envelope mt-1"></i>
+                        <p class="description  ms-3">mail@support.com</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-map mt-1"></i>
+                        <p class="description  ms-3">1234 Altschul, New York,NY 10027-0000</p>
+                    </div>
+                </div>
+                <!-- footer part 3 -->
+                <div class="col-md-4 g-5  mt-3 mt-md-0">
+                    <h3 class="heading3">Opening from</h3>
+                    <p class="description mt-3">Monday - Thursday
+                        <span>10:00 AM - 11:00 PM</span>
+                    </p>
+                    <p class="description">Friday - Sunday
+                        <span>12:00 AM - 03:00 AM</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+           <div class="container">
+             <!-- footer nav  -->
+             <div class="row align-items-center  py-4 justify-content-around">
+                <div class="col-md-3">
+                    <div class="text-center text-lg-start">
+                        <p class="description mb-2 mb-lg-0">Copyright © 2019 by 
+                            <a href="javascript:void(0)" class="text-decoration-none text-white ">Athika Priya </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <ul class="nav justify-content-center justify-content-lg-end">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link description">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link description">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="gallery.html" class="nav-link description">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link description">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link description">Use Of Terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+        </div>
+    </footer>
+    <!-- footer ends here  -->
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- aos js cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- my js -->
+    <script src="assets/js/script.js"></script>
+    <!-- product quntity controls -->
+    <script>   
+        document.getElementById("increase").addEventListener("click", function () {
+            let quantity = parseInt(document.getElementById("quantity").value);
+            document.getElementById("quantity").value = quantity + 1;
+        });
+
+        document.getElementById("decrease").addEventListener("click", function () {
+            let quantity = parseInt(document.getElementById("quantity").value);
+            if (quantity > 1) {
+                document.getElementById("quantity").value = quantity - 1;
+            }
+        });
+    </script>
+</body>
+</html>
