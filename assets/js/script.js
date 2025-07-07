@@ -2,6 +2,9 @@
 const navbar = document.querySelector('nav');
 const toggleButton = document.querySelector('.fa-bars');
 
+
+
+
 // Function to handle scroll and toggle background
 const handleNavbarBackground = () => {
     if (window.scrollY > 50 || (window.innerWidth <= 992 && toggleButton.classList.contains('active'))) {
